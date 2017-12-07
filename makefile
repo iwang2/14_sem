@@ -6,4 +6,7 @@ clean:
 	rm *~
 
 run: all
-	./a.out
+	./a.out -c 222
+	./a.out -v
+	./a.out -r
+	./a.out -c 111 -v -r
